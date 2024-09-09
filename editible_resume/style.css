@@ -1,0 +1,97 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/292804554/original/d2e55455960b6279ffe6918c8bcc210a27eb4a33/make-professional-resumes-cv-designs-cover-photos-within-24-hour.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #0e0d0d;
+}
+
+form {
+    max-width: 600px;
+    background-color: wheat;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 2px solid rgb(44, 35, 35);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    color: #202020;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #131212;
+}
+
+input, textarea {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    background-color: #795548;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    color: brown;
+}
+
+.profile-picture {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #444;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
